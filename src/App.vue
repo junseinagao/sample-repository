@@ -2,6 +2,7 @@
   <div id="app">
     <div>templateでは、HTMLとVue構文を書く。</div>
     <div>{{ hello }}</div>
+    <div>変更しました</div>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
