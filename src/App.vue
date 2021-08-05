@@ -2,6 +2,7 @@
   <div id="app">
     <div>templateでは、HTMLとVue構文を書く。</div>
     <div>{{ hello }}</div>
+    <Counter></Counter>
     <div>変更しました</div>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
@@ -10,11 +11,13 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue"
+import Counter from "./components/Counter.vue"
 console.log("scriptでは、JSを書く")
 export default {
   name: "App",
   components: {
     HelloWorld,
+    Counter,
   },
   data() {
     return {
