@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div>参上！！！</div>
     <div>templateでは、HTMLとVue構文を書く。</div>
     <div>{{ hello }}</div>
     <Counter></Counter>
